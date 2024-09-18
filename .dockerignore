@@ -1,0 +1,35 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore the virtual environment (if any)
+venv/
+.env/
+
+# Ignore test files and directories
+app/tests/
+
+# Ignore Terraform files and directories
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+.terraform/
+
+# Ignore Git metadata
+.git/
+.gitignore
+
+# Ignore Docker-related files
+Dockerfile
+docker-compose.yml
+
+# Ignore IDE/editor configurations (if applicable)
+*.vscode/
+*.idea/
+
+# Ignore temporary files
+*.log
+*.swp
+*.swo
